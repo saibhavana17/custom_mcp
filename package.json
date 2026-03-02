@@ -1,0 +1,24 @@
+{
+  "name": "mcp_platform",
+  "version": "1.0.0",
+  "description": "creating mcp server",
+  "repository": {
+    "type": "git",
+    "url": "mcp_platform"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node http-proxy.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.13.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.4",
+    "zod": "^3.24.0"
+  }
+}
